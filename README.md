@@ -59,7 +59,9 @@ Sistema backend para equipos remotos que permite registrar gastos empresariales 
 ## 🚀 Cómo levantar el proyecto (para recruiters)
 
 # 1. Clonar repositorio
+```bash
 git clone https://github.com/tu_usuario/gestor-gastos.git
+```
 
 # 2. Crear entorno virtual
 python -m venv venv
