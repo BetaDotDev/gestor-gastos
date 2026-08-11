@@ -66,7 +66,8 @@ git clone https://github.com/tu_usuario/gestor-gastos.git
 # 2. Crear entorno virtual
 ```bash
 python -m venv venv
-source venv/bin/activate  # En Windows: venv\Scripts\activate
+source venv/bin/activate  # En Linux
+venv\Scripts\activate # En Windows
 ```
 # 3. Instalar dependencias
 ```bash
