@@ -64,20 +64,24 @@ git clone https://github.com/tu_usuario/gestor-gastos.git
 ```
 
 # 2. Crear entorno virtual
+```bash
 python -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
-
+```
 # 3. Instalar dependencias
+```bash
 pip install -r requirements.txt
-
+```
 # 4. Configurar variables de entorno (copiar .env.example a .env)
 
 # 5. Ejecutar migraciones de BD
+```bash
 alembic upgrade head
-
+```
 # 6. Levantar el servidor
+```bash
 uvicorn main:app --reload
-
+```
 ---
 
 ## 📝 Notas personales (para mí)
