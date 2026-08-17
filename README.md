@@ -20,8 +20,8 @@ Sistema backend para equipos remotos que permite registrar gastos empresariales 
 
 | Fase | Tarea | Horas Estimadas | Horas Reales | Fecha Inicio | Fecha Fin | Estado |
 |------|-------|----------------|--------------|--------------|-----------|--------|
-| **Fase 0** | Configuración inicial (entorno, GitHub, .env, requirements) | 2h | 1.5H | 17/08/2026 | 17/08/2026 | ⬜ Pendiente |
-| **Fase 1** | API básica: CRUD de gastos (sin autenticación) con SQLite | 6h | | | | ⬜ Pendiente |
+| **Fase 0** | Configuración inicial (entorno, GitHub, .env, requirements) | 2h | 1.5H | 17/08/2026 | 17/08/2026 | ✅ Finalizado |
+| **Fase 1** | API básica: CRUD de gastos (sin autenticación) con SQLite | 6h | | 17/08/2026 | | ⬜ Pendiente |
 | **Fase 2** | Autenticación JWT (registro, login, protección de rutas) | 5h | | | | ⬜ Pendiente |
 | **Fase 3** | Conexión a PostgreSQL (cambiar SQLite → PostgreSQL con Docker) | 4h | | | | ⬜ Pendiente |
 | **Fase 4** | Servicio de OCR (subir imagen → extraer monto y fecha con Tesseract) | 6h | | | | ⬜ Pendiente |
